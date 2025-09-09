@@ -32,7 +32,7 @@ namespace Assignment_Empty_pro_01
             }
 
             app.UseRouting();
-
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
